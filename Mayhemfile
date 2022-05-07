@@ -1,0 +1,5 @@
+project: jbgreenh/blurhash
+target: blurhash_encoder
+
+cmds:
+  - cmd: /blurhash_encoder 3 3 @@

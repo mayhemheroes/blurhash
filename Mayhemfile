@@ -1,4 +1,4 @@
-project: jbgreenh/blurhash
+project: blurhash
 target: blurhash_encoder
 
 cmds:

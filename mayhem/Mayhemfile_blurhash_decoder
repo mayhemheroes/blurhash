@@ -1,0 +1,8 @@
+project: mayhemheroes/blurhash
+target: blurhash_decoder
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/blurhash_decoder/testsuite
+cmds:
+  - cmd: /mayhem/blurhash_decoder
+    libfuzzer: true
